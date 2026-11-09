@@ -105,7 +105,7 @@ Grafik perbandingan mengambil `forecast_step=PRED_LEN` (horizon terakhir) untuk 
 
 ## Catatan metodologis
 
-- Port ini mempertahankan konfigurasi sumber notebook, yaitu split 70%/15%/15% dan `Close` sebagai salah satu fitur input historis. Proyek LSTM sebelumnya memakai split 70%/10%/20% dan tidak memasukkan `Close` ke `FEATURE_COLS`. Untuk perbandingan LSTM-vs-Informer yang benar-benar setara dalam skripsi, samakan rasio split dan daftar fitur input di kedua `config.py` sebelum menjalankan eksperimen final.
+- Port ini mempertahankan konfigurasi sumber notebook, yaitu split 70%/15%/15% dan `Close` sebagai salah satu fitur input historis. Proyek LSTM sebelumnya memakai split 70%/10%/20% dan tidak memasukkan `Close` ke `FEATURE_COLS`.
 
 1. Fitur dan target di-scaling menggunakan statistik dari bagian train saja.
 2. Baris yang dialokasikan untuk sampel prediksi akhir tidak masuk ke periode training/validation/test.
