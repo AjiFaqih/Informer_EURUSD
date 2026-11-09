@@ -1,6 +1,0 @@
-window,label_jendela,start_prediction_order,end_prediction_order
-first_50,50 prediksi pertama,1,50
-last_50,50 prediksi terakhir,51,100
-first_20,20 prediksi pertama,1,20
-middle_20,20 prediksi tengah,41,60
-last_20,20 prediksi terakhir,81,100
